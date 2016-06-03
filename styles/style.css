@@ -1,7 +1,7 @@
 body {
     display: block;
     background: rgba(255, 255, 255, 0);
-    background-image: url('images/pc.jpg');
+    background-image: url('../images/pc.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center top;
@@ -19,7 +19,10 @@ body {
     position: relative;
 }
 
-
+.banner{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 /*@media (min-width: 1200px) {
     .profile,.works {
         height: 90vh;
@@ -58,7 +61,6 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-image: url('../images/frame.png') no-repeat scroll center center transparent;
 }
 
 .works p {
