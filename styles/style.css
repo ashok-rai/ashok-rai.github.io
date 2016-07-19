@@ -19,10 +19,12 @@ body {
     position: relative;
 }
 
-.banner{
+.banner {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
 /*@media (min-width: 1200px) {
     .profile,.works {
         height: 90vh;
