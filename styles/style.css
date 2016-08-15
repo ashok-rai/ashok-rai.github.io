@@ -24,27 +24,8 @@ body {
     margin-bottom: 20px;
 }
 
-
-/*@media (min-width: 1200px) {
-    .profile,.works {
-        height: 90vh;
-    }
-
-    .works {
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1199px) {
-    .profile,.works {
-        height: 60vh;
-    }
-
-    .works {
-    }
-}*/
-
 .jumb {
-    height: 95vh;
+    height: 90vh;
     color: #fff;
 }
 
@@ -79,12 +60,6 @@ body {
 .center-block {
     text-align: center;
 }
-
-
-/*.project{
-    display: block;
-}
-*/
 
 .display-1 {
     margin-bottom: 25px;
@@ -145,4 +120,50 @@ body {
 .footer {
     background-color: #242F32;
     color: #fff;
+    text-align: center;
+}
+
+.feet {
+    border-radius: 1px;
+}
+
+.color-btn {
+    background-color: #ade4c4;
+    color: #000;
+    border: 1px solid #ade4c4;
+    border-radius: 1px;
+}
+
+.color-btn:hover {
+    background-color: #03d7ab;
+    border-color: #03d7ab;
+    color: #fff;
+}
+
+.Nl {
+    padding-top: 6em;
+    position: absolute;
+    left: 0;
+}
+
+.icons {
+    display: flex;
+    float: right;
+}
+
+.gap {
+    margin-left: 10px;
+}
+
+.icons,
+.icons i {
+    color: #03d7ab !important;
+}
+
+.icons i:before {
+    margin-right: 5px;
+}
+
+.Signup{
+    margin: auto;
 }
