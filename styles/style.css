@@ -146,10 +146,6 @@ body {
     left: 0;
 }
 
-.icons {
-    display: flex;
-    float: right;
-}
 
 .gap {
     margin-left: 10px;
