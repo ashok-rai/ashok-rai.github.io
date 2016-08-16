@@ -139,6 +139,11 @@ body {
     border-radius: 1px;
 }
 
+.arrow {
+    display: flex;
+    justify-content: center;
+}
+
 .color-btn:hover {
     background-color: #03d7ab;
     border-color: #03d7ab;
