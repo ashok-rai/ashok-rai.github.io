@@ -182,8 +182,8 @@ textarea {
 
 #email{
     background: #242F32;
-    border-color: #03D7AB;
-    border-radius: 1px;
+    border-color: #03D7AB !important;
+    border-radius: 1px !important;
     color: #03D7AB;
 
 }
