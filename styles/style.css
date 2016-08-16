@@ -170,4 +170,20 @@ body {
 
 textarea.form-control {
     height: 100px;
+    background: #242F32;
+    border-color: #03D7AB;
+    border-radius: 1px;
+    color: #03D7AB;
+}
+
+textarea {
+    overflow: hidden !important;
+}
+
+#email{
+    background: #242F32;
+    border-color: #03D7AB;
+    border-radius: 1px;
+    color: #03D7AB;
+
 }
