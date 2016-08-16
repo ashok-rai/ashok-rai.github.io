@@ -129,7 +129,7 @@ body {
 }
 
 .color-btn {
-    width: 10%;
+    width: 0;
     position: absolute;
     bottom: 12%;
     right: 0;
