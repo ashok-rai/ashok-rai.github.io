@@ -129,6 +129,10 @@ body {
 }
 
 .color-btn {
+    width: 10%;
+    position: absolute;
+    bottom: 12%;
+    right: 0;
     background-color: #ade4c4;
     color: #000;
     border: 1px solid #ade4c4;
@@ -180,10 +184,9 @@ textarea {
     overflow: hidden !important;
 }
 
-#email{
+#email {
     background: #242F32;
     border-color: #03D7AB !important;
     border-radius: 1px !important;
     color: #03D7AB;
-
 }
