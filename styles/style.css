@@ -124,7 +124,7 @@ body {
 }
 
 .feet {
-    margin-top: 5%;
+    margin-top: 2%;
     border-radius: 1px;
 }
 
@@ -149,6 +149,10 @@ body {
 
 .gap {
     margin-left: 10px;
+}
+
+.icons {
+    margin-top: 3%;
 }
 
 .icons,
