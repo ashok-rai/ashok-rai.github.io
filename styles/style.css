@@ -124,6 +124,7 @@ body {
 }
 
 .feet {
+    margin-top: 5%;
     border-radius: 1px;
 }
 
@@ -146,7 +147,6 @@ body {
     left: 0;
 }
 
-
 .gap {
     margin-left: 10px;
 }
@@ -160,9 +160,10 @@ body {
     margin-right: 5px;
 }
 
-.Signup{
+.Signup {
     margin: auto;
 }
 
-
-
+textarea.form-control {
+    height: 100px;
+}
