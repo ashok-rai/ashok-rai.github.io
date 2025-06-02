@@ -1,0 +1,37 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B0E0E6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mtGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#708090;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2F4F4F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="500" fill="url(#skyGrad)"/>
+  
+  <!-- Majestic mountain range -->
+  <path d="M0 350 L80 200 L160 250 L240 150 L320 100 L400 120 L480 180 L560 160 L640 200 L720 180 L800 220 L800 500 L0 500 Z" fill="url(#mtGrad)"/>
+  
+  <!-- Snow peaks -->
+  <path d="M240 150 L220 130 L240 110 L260 130 Z" fill="white"/>
+  <path d="M320 100 L300 80 L320 60 L340 80 Z" fill="white"/>
+  <path d="M400 120 L380 100 L400 80 L420 100 Z" fill="white"/>
+  
+  <!-- Clouds -->
+  <g fill="white" opacity="0.7">
+    <ellipse cx="150" cy="80" rx="40" ry="20"/>
+    <ellipse cx="500" cy="60" rx="60" ry="30"/>
+    <ellipse cx="650" cy="90" rx="50" ry="25"/>
+  </g>
+  
+  <!-- Valley -->
+  <path d="M0 400 L200 380 L400 390 L600 385 L800 395 L800 500 L0 500 Z" fill="#228B22"/>
+  
+  <!-- River -->
+  <path d="M100 420 Q300 410 500 415 Q700 420 800 425" stroke="#4682B4" stroke-width="6" fill="none"/>
+  
+  <text x="400" y="450" text-anchor="middle" fill="#2F4F4F" font-family="Arial" font-size="24" font-weight="bold">Breathtaking Mountain Views</text>
+</svg>

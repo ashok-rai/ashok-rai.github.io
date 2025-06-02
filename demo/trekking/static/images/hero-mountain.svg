@@ -1,0 +1,71 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient background -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#98D8E8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F0F8FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountainGradient1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A4A4A;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#2F4F2F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1C5A1C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountainGradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#696969;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#3F5F3F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="1920" height="1080" fill="url(#skyGradient)"/>
+  
+  <!-- Distant mountains -->
+  <path d="M0 600 L200 400 L400 450 L600 350 L800 400 L1000 300 L1200 350 L1400 280 L1600 320 L1800 250 L1920 300 L1920 1080 L0 1080 Z" fill="#B0C4DE" opacity="0.6"/>
+  
+  <!-- Middle mountains -->
+  <path d="M0 700 L150 500 L350 550 L550 450 L750 500 L950 400 L1150 450 L1350 380 L1550 420 L1750 350 L1920 400 L1920 1080 L0 1080 Z" fill="url(#mountainGradient1)" opacity="0.8"/>
+  
+  <!-- Foreground mountains -->
+  <path d="M0 800 L100 600 L300 650 L500 550 L700 600 L900 500 L1100 550 L1300 480 L1500 520 L1700 450 L1920 500 L1920 1080 L0 1080 Z" fill="url(#mountainGradient2)"/>
+  
+  <!-- Snow caps -->
+  <path d="M500 550 L450 520 L500 500 L550 520 Z" fill="white"/>
+  <path d="M900 500 L850 470 L900 450 L950 470 Z" fill="white"/>
+  <path d="M1300 480 L1250 450 L1300 430 L1350 450 Z" fill="white"/>
+  <path d="M1700 450 L1650 420 L1700 400 L1750 420 Z" fill="white"/>
+  
+  <!-- Clouds -->
+  <g fill="white" opacity="0.8">
+    <ellipse cx="300" cy="200" rx="60" ry="30"/>
+    <ellipse cx="320" cy="190" rx="40" ry="20"/>
+    <ellipse cx="280" cy="190" rx="35" ry="18"/>
+    
+    <ellipse cx="800" cy="150" rx="80" ry="40"/>
+    <ellipse cx="830" cy="140" rx="50" ry="25"/>
+    <ellipse cx="770" cy="140" rx="45" ry="22"/>
+    
+    <ellipse cx="1400" cy="180" rx="70" ry="35"/>
+    <ellipse cx="1430" cy="170" rx="45" ry="22"/>
+    <ellipse cx="1370" cy="170" rx="40" ry="20"/>
+  </g>
+  
+  <!-- Trees on mountainside -->
+  <g fill="#1B5E20">
+    <polygon points="200,750 190,780 210,780"/>
+    <polygon points="250,780 240,810 260,810"/>
+    <polygon points="320,760 310,790 330,790"/>
+    <polygon points="600,680 590,710 610,710"/>
+    <polygon points="650,690 640,720 660,720"/>
+    <polygon points="1050,620 1040,650 1060,650"/>
+    <polygon points="1100,630 1090,660 1110,660"/>
+  </g>
+  
+  <!-- Mist/fog effect -->
+  <g fill="white" opacity="0.3">
+    <ellipse cx="400" cy="600" rx="150" ry="30"/>
+    <ellipse cx="800" cy="550" rx="200" ry="40"/>
+    <ellipse cx="1200" cy="500" rx="180" ry="35"/>
+  </g>
+</svg>

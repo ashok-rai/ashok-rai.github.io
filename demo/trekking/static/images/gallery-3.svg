@@ -1,0 +1,73 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cultureSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB347;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFF8DC;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="monasteryGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B0000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A0522D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="500" fill="url(#cultureSky)"/>
+  
+  <!-- Mountain backdrop -->
+  <path d="M0 200 L150 100 L300 150 L450 80 L600 120 L750 90 L800 130 L800 500 L0 500 Z" fill="#4682B4" opacity="0.4"/>
+  
+  <!-- Monastery building -->
+  <rect x="250" y="280" width="300" height="120" fill="url(#monasteryGrad)" rx="5"/>
+  <rect x="270" y="260" width="260" height="20" fill="#8B0000"/>
+  <rect x="360" y="300" width="80" height="100" fill="#654321"/>
+  
+  <!-- Monastery roof -->
+  <polygon points="240,280 400,220 560,280" fill="#FFD700"/>
+  <polygon points="250,280 400,230 550,280" fill="#FFA500"/>
+  
+  <!-- Prayer wheels -->
+  <g fill="#B8860B">
+    <rect x="200" y="350" width="15" height="40" rx="3"/>
+    <rect x="585" y="350" width="15" height="40" rx="3"/>
+  </g>
+  
+  <!-- Prayer flags -->
+  <g>
+    <line x1="150" y1="250" x2="350" y2="200" stroke="#8B4513" stroke-width="2"/>
+    <rect x="160" y="245" width="12" height="8" fill="#FF0000"/>
+    <rect x="180" y="240" width="12" height="8" fill="#0000FF"/>
+    <rect x="200" y="235" width="12" height="8" fill="#FFFF00"/>
+    <rect x="220" y="230" width="12" height="8" fill="#00FF00"/>
+    <rect x="240" y="225" width="12" height="8" fill="#FFFFFF"/>
+    <rect x="260" y="220" width="12" height="8" fill="#FF0000"/>
+    <rect x="280" y="215" width="12" height="8" fill="#0000FF"/>
+    <rect x="300" y="210" width="12" height="8" fill="#FFFF00"/>
+    <rect x="320" y="205" width="12" height="8" fill="#00FF00"/>
+  </g>
+  
+  <!-- People in traditional dress -->
+  <g fill="#8B4513">
+    <circle cx="180" cy="380" r="8"/>
+    <rect x="175" y="388" width="10" height="20" fill="#8B0000"/>
+    <rect x="172" y="395" width="6" height="15"/>
+    <rect x="182" y="395" width="6" height="15"/>
+    
+    <circle cx="620" cy="380" r="8"/>
+    <rect x="615" y="388" width="10" height="20" fill="#8B0000"/>
+    <rect x="612" y="395" width="6" height="15"/>
+    <rect x="622" y="395" width="6" height="15"/>
+  </g>
+  
+  <!-- Yaks -->
+  <g fill="#2F4F4F">
+    <ellipse cx="100" cy="420" rx="25" ry="15"/>
+    <circle cx="85" cy="415" r="8"/>
+    <rect x="80" y="410" width="4" height="8"/>
+    <rect x="86" y="410" width="4" height="8"/>
+    <rect x="75" y="435" width="6" height="12"/>
+    <rect x="85" y="435" width="6" height="12"/>
+    <rect x="115" y="435" width="6" height="12"/>
+    <rect x="125" y="435" width="6" height="12"/>
+  </g>
+  
+  <text x="400" y="480" text-anchor="middle" fill="#8B4513" font-family="Arial" font-size="24" font-weight="bold">Rich Sherpa Culture</text>
+</svg>

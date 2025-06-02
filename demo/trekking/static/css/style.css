@@ -116,7 +116,7 @@ body {
 .hero-section {
     min-height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), 
-                url('https://pixabay.com/get/g6ec91b1326f59adb3a1454d8a95cac10d8b9708f790b9b267b6c2ab0af9fbdc8205d67861edd9990475c2df3f2a57e61b6c30d051b4cf19c7e8bb69b447b2fce_1280.jpg');
+                url('../images/hero-mountain.svg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

@@ -1,0 +1,56 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pathSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#98D8E8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F0F8FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="hillGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#556B2F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#228B22;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="500" fill="url(#pathSky)"/>
+  
+  <!-- Rolling hills -->
+  <path d="M0 300 Q200 250 400 280 Q600 310 800 270 L800 500 L0 500 Z" fill="url(#hillGrad)"/>
+  
+  <!-- Winding trail -->
+  <path d="M50 450 Q200 400 350 420 Q500 440 650 380 Q750 360 800 350" stroke="#8B4513" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M50 450 Q200 400 350 420 Q500 440 650 380 Q750 360 800 350" stroke="#D2B48C" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Rhododendron bushes -->
+  <g>
+    <circle cx="120" cy="380" r="15" fill="#9ACD32"/>
+    <circle cx="125" cy="375" r="3" fill="#FF69B4"/>
+    <circle cx="115" cy="378" r="3" fill="#FF1493"/>
+    <circle cx="122" cy="385" r="3" fill="#FF69B4"/>
+    
+    <circle cx="280" cy="390" r="18" fill="#9ACD32"/>
+    <circle cx="285" cy="385" r="3" fill="#FF1493"/>
+    <circle cx="275" cy="388" r="3" fill="#FF69B4"/>
+    <circle cx="282" cy="395" r="3" fill="#FF1493"/>
+    
+    <circle cx="450" cy="410" r="16" fill="#9ACD32"/>
+    <circle cx="455" cy="405" r="3" fill="#FF69B4"/>
+    <circle cx="445" cy="408" r="3" fill="#FF1493"/>
+    <circle cx="452" cy="415" r="3" fill="#FF69B4"/>
+  </g>
+  
+  <!-- Stone cairns -->
+  <g fill="#696969">
+    <ellipse cx="200" cy="430" rx="8" ry="4"/>
+    <ellipse cx="200" cy="425" rx="6" ry="3"/>
+    <ellipse cx="200" cy="421" rx="4" ry="2"/>
+    
+    <ellipse cx="400" cy="440" rx="10" ry="5"/>
+    <ellipse cx="400" cy="434" rx="8" ry="4"/>
+    <ellipse cx="400" cy="429" rx="6" ry="3"/>
+    <ellipse cx="400" cy="425" rx="4" ry="2"/>
+  </g>
+  
+  <!-- Mountain backdrop -->
+  <path d="M0 200 L100 120 L200 150 L300 100 L400 130 L500 110 L600 140 L700 120 L800 160 L800 300 L0 300 Z" fill="#4682B4" opacity="0.6"/>
+  
+  <text x="400" y="480" text-anchor="middle" fill="#2F4F4F" font-family="Arial" font-size="24" font-weight="bold">Scenic Hiking Trails</text>
+</svg>

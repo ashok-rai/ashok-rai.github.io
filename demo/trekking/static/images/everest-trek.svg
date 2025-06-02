@@ -1,0 +1,53 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="skyBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F0F8FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountainFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#696969;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2F4F2F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#skyBg)"/>
+  
+  <!-- Mountain peaks -->
+  <path d="M0 400 L100 250 L200 300 L300 200 L400 150 L500 200 L600 250 L700 220 L800 280 L800 600 L0 600 Z" fill="url(#mountainFill)"/>
+  
+  <!-- Snow caps -->
+  <path d="M300 200 L280 180 L300 160 L320 180 Z" fill="white"/>
+  <path d="M400 150 L380 130 L400 110 L420 130 Z" fill="white"/>
+  <path d="M500 200 L480 180 L500 160 L520 180 Z" fill="white"/>
+  
+  <!-- Trekking path -->
+  <path d="M50 500 Q200 450 350 400 Q500 350 650 320 Q750 300 800 290" stroke="#8D6E63" stroke-width="8" fill="none" stroke-dasharray="10,5"/>
+  
+  <!-- Trekkers silhouettes -->
+  <g fill="#333">
+    <circle cx="200" cy="445" r="8"/>
+    <rect x="195" y="453" width="10" height="25"/>
+    <rect x="192" y="465" width="6" height="15"/>
+    <rect x="202" y="465" width="6" height="15"/>
+    <rect x="188" y="455" width="8" height="3"/>
+    <rect x="204" y="455" width="8" height="3"/>
+  </g>
+  
+  <!-- Trees -->
+  <g fill="#1B5E20">
+    <polygon points="150,480 140,520 160,520"/>
+    <polygon points="250,460 240,500 260,500"/>
+    <polygon points="350,440 340,480 360,480"/>
+  </g>
+  
+  <!-- Prayer flags -->
+  <g>
+    <line x1="120" y1="400" x2="180" y2="380" stroke="#8B4513" stroke-width="2"/>
+    <rect x="125" y="395" width="8" height="6" fill="#FF6B6B"/>
+    <rect x="135" y="393" width="8" height="6" fill="#4ECDC4"/>
+    <rect x="145" y="391" width="8" height="6" fill="#FFE66D"/>
+    <rect x="155" y="389" width="8" height="6" fill="#95E1D3"/>
+    <rect x="165" y="387" width="8" height="6" fill="#A8E6CF"/>
+  </g>
+</svg>
